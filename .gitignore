@@ -43,3 +43,23 @@ nb-configuration.xml
 /.quarkus/cli/plugins/
 # TLS Certificates
 .certs/
+
+# Confidential files - Properties and JWT secrets
+*.properties
+jwt-secret.txt
+jwt-secret-*.txt
+**/jwt-secret.txt
+**/jwt-secret-*.txt
+
+# Database files
+*.db
+*.h2.db
+*.sqlite
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
